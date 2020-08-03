@@ -19,7 +19,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'app');
 Route::view('/{path}', 'app');
-Route::view('/artikel', 'app');
 Route::view('/artikel/create', 'app');
 Route::view('/artikel/edit/{id}', 'app');
 Route::view('/artikel/{id}', 'app');
